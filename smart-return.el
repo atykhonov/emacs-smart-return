@@ -62,7 +62,7 @@
 ;;       (message "False"))
 ;;     |))
 ;;
-;; smart-return is a very thin wrapper around smart-forward (Read:
+;; `smart-return' is a very thin wrapper around `smart-forward' (Read:
 ;; https://github.com/magnars/smart-forward.el).
 ;;
 

@@ -53,7 +53,7 @@
 ;; Your cursor is in the middle of the "message" function.  And you
 ;; would like to add more code to the form `let'.  By means of this
 ;; little tool you can sequentially execute `smart-return' command
-;; five times and you'll get the following:
+;; three times and you'll get the following:
 ;;
 ;; (defun test ()
 ;;   (let ((test t))
@@ -61,7 +61,6 @@
 ;;         (message "True")
 ;;       (message "False"))
 ;;     |))
-;;
 ;;
 ;; smart-return is a very thin wrapper around smart-forward (Read:
 ;; https://github.com/magnars/smart-forward.el).

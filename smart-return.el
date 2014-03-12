@@ -65,7 +65,7 @@
 ;;
 ;; smart-return is a very thin wrapper around smart-forward (Read:
 ;; https://github.com/magnars/smart-forward.el).
-;; 
+;;
 
 ;;; Code:
 
@@ -85,7 +85,7 @@
                     'smart-return)
              (equal this-command
                     'smart-return))
-    (undo)))
+    (delete-indentation)))
 
 (add-hook 'pre-command-hook 'smart-return-pre-command-hook)
 

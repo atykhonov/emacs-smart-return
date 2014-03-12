@@ -8,12 +8,12 @@ is most easily to explain by example. For example you have such code:
   (let ((test t))
     (if test
         (message "True")
-      (mes|sage "False"))))
+      (message "False"))))
 
 Your cursor is in the middle of the "message" function.  And you
 would like to add more code to the form `let'.  By means of this
 little tool you can sequentially execute `smart-return' command
-five times and you'll get the following:
+three times and you'll get the following:
 
 (defun test ()
   (let ((test t))
@@ -21,7 +21,6 @@ five times and you'll get the following:
         (message "True")
       (message "False"))
     |))
-
 
 smart-return is a very thin wrapper around smart-forward (Read:
 https://github.com/magnars/smart-forward.el).
